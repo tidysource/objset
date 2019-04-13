@@ -29,3 +29,4 @@ test('objSet()', function(assert){
     objSet({a:{b:1}}, 'a/c', '/', 2),
     {a:{b:1, c:2}}, 'Existing value is preserved');
 });
+	
