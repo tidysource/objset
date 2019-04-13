@@ -1,5 +1,6 @@
 # objset
-Sets a deep value within object
+Sets a deep value within object.
+This is a mutable function, meaning the input object will be modified.
 
 ```javascript
 let objSet = require('objset');
